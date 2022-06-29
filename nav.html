@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; 
+charset=iso-8859-1" />
+<title>nav</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.3/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+<!--Google-->
+<script type="text/javascript">
+var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36282475-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+function MM_swapImgRestore() { //v3.0
+  var i,x,a=document.MM_sr; for(i=0;a&&i<a.length&&(x=a[i])&&x.oSrc;i++) x.src=x.oSrc;
+}
+function MM_preloadImages() { //v3.0
+  var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+    if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+function MM_findObj(n, d) { //v4.01
+  var p,i,x;  if(!d) d=document; if((p=n.indexOf("?"))>0&&parent.frames.length) {
+    d=parent.frames[n.substring(p+1)].document; n=n.substring(0,p);}
+  if(!(x=d[n])&&d.all) x=d.all[n]; for (i=0;!x&&i<d.forms.length;i++) x=d.forms[i][n];
+  for(i=0;!x&&d.layers&&i<d.layers.length;i++) x=MM_findObj(n,d.layers[i].document);
+  if(!x && d.getElementById) x=d.getElementById(n); return x;
+}
+
+function MM_swapImage() { //v3.0
+  var i,j=0,x,a=MM_swapImage.arguments; document.MM_sr=new Array; for(i=0;i<(a.length-2);i+=3)
+   if ((x=MM_findObj(a[i]))!=null){document.MM_sr[j++]=x; if(!x.oSrc) x.oSrc=x.src; x.src=a[i+2];}
+}
+</script>
+
+<style type="text/css">
+<!--
+
+body {
+	background-image:url(galeria/lateralvdevert.png);
+	background-position: left top;
+	background-repeat:repeat-y;
+	background-color:#000000;
+	width:165px;
+	height:auto;
+	padding-left:15px;
+	padding-top:11px;
+}
+
+#apDiv3 {
+	
+	position:absolute;
+	left:0;
+	top:0;
+	width:20px;
+	height:1000px;
+	z-index:1;
+}
+#b_navegacion {
+	
+	position:absolute;
+	left:36px;
+	top:-2px;
+	/*width:166px;*/
+	height:180px;
+	z-index:3;
+	MARGIN: 0px;
+}
+
+/*------------------------------MENU WORKS---------------------------------------------------*/
+#menuwork {
+	display:block;
+	margin-top:-4px;
+	padding:0px;
+	font-family: Arial;
+	list-style:none;
+	width:166px;
+}
+#menuwork li{
+	margin-top: 4px;
+
+	}
+#menuwork li ul {
+	display:none; 
+	margin:0px;
+	}
+
+#menuwork li a {
+	WIDTH: 166px;
+	height:23px;
+	text-decoration:none;
+/*   	display:block;*/
+	list-style:none;
+
+}
+#menuwork li a:hover {
+	MARGIN: 0px;
+	text-decoration:none;
+  /*  display:block;*/
+	list-style:none;
+    }
+
+#menuwork li span a:hover {
+	MARGIN: 0px /*-35px*/;
+	list-style:none;
+    }
+
+#menuwork ul li, #menuwork ul li:last-child{
+	font-size:12px;
+	color:#F43C82;
+	border:none; 
+	margin:0px -30px;
+	list-style:none;
+	width:150px;
+	/*text-align:justify;*/
+	
+	}	
+
+#menuwork a:hover{
+	color:#65c5b2;
+}
+#menuwork ul li span{
+	font-size:11px;
+	color:#666666;
+	border:none; 
+	list-style:none;
+	text-decoration:none;
+	}
+#menuwork ul li a{
+	font-size:11px;
+	color:#666666;
+	border:none; 
+	list-style:none;
+	text-decoration:none;
+	}
+#menuwork ul li a:hover{
+	color:#65C4B1;
+	border:none; 
+	list-style:none;
+	text-decoration:none;
+}
+
+
+-->
+</style>
+
+</head>
+<body onload="MM_preloadImages('but/butNEWS_o.png','but/butWork_o.png','but/butPublications_o.png','but/butProducts_o.png')">
+<div id="b_navegacion">
+<ul id="menuwork">
+<li><a href="principal.html" target="mainFrame" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('news','','but/butNEWS_o.png',1)"><img src="but/butNEWS.png" alt="News" width="163" height="18" border="0" id="news" /></a></li>
+<li><a href="#" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('work','','but/butWork_o.png',1)"><img src="but/butWork.png" alt="Work" width="163" height="18" border="0" id="work" /></a>
+	<ul>
+	  <li>DESIGN & CREATIVITY</li>
+	  <li><span><a href="livemiami.html" target="mainFrame">Live Miami</a> &#8226; <a href="sprite.html" target="mainFrame">Sprite</a> &#8226; <a href="youfest.html" target="mainFrame">YouFest</a> &#8226; <a href="uia.html" target="mainFrame">UIA</a> &#8226; <a href="fibertelamigos.html" target="mainFrame">Fibertel Amigos</a> &#8226; <a href="flamboyantparadise.html" target="mainFrame">Flamboyant Paradise</a> &#8226; <a href="nutrifangame.html" target="mainFrame">Nutrifan Game</a> &#8226; <a href="kimway.html" target="mainFrame">Kimway</a> &#8226; <a href="nutrifan.html" target="mainFrame">Nutrifan</a> &#8226; <a href="ln2011.html" target="mainFrame">LN 2011</a> &#8226; <a href="lindas.html" target="mainFrame">Lindas Pel&iacute;culas</a> &#8226;  <a href="LN_suplements.html" target="mainFrame">LN Supplement Cover</a>  &#8226; <a href="lockett.html" target="mainFrame">Milo Lockett / Fresca</a>  &#8226; <a href="Lounge.html" target="mainFrame"> Jet Lounge</a>  &#8226; <a href="WebNatacha.html" target="mainFrame"> Web Natacha</a> &#8226; <a href="Dnite.html" target="mainFrame">Dnite</a> &#8226; <!--<a href="#" target="mainFrame">-->Estampas<!--</a>--> &#8226; <a href="Avenue.html" target="mainFrame">Avenue. Q</a> &#8226; <a href="Cliche.html" target="mainFrame"> R / Clich&eacute;</a>  &#8226; <a href="Natacha.html" target="mainFrame"> Natacha</a> </span></li>
+	  <li>ILLUSTRATION</li>
+	  <li><span><a href="adnc1.html" target="mainFrame">ADN Tv</a> &#8226; <a href="firear.html" target="mainFrame">FiRe Argentina</a> &#8226; <a href="fireeua.html" target="mainFrame">FiRe Eua</a> &#8226; <a href="ilballo.html" target="mainFrame">Il Ballo del Mattone</a> &#8226; <a href="Nutrifanillu.html" target="mainFrame">Nutrifan</a> &#8226; <a href="Frikstailers.html" target="mainFrame">Frikstailers</a></span></li>
+	  <li>FILM & VIDEO</li>
+	  <li><span><a href="torino.html" target="mainFrame">Ojo de Iberoam&eacute;rica</a> &#8226; <a href="amma.html" target="mainFrame">Amma</a> &#8226; <a href="arnet.html" target="mainFrame">Arnet</a> &#8226; <!--<a href="#" target="mainFrame">-->Fibertel<!--</a>--></span></li>
+	  <li>ART DIRECTION</li>
+	  <li><span><a href="ads.html" target="mainFrame">Ads</a> &#8226; <a href="comercial.html" target="mainFrame">Commercial</a></span></li>
+	  <li>&nbsp;</li>
+	  </ul>
+</li>
+<!--<li><a href="publications.html" target="mainFrame" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('publi','','but/butPublications_o.png',1)"><img src="but/butPublications.png" alt="Publications" width="163" height="18" border="0" id="publi" /></a></li>-->
+<li><a href="mailto:info@ammaweb.com.ar" target="_blank" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('info','','but/butINFO-CONTACT_o.png',1)"><img src="but/butINFO-CONTACT.png" alt="Info &amp; Contact" border="0" id="info" /></a></li>
+<!--<li><a href="products.html" target="mainFrame" onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Products','','but/butProducts_o.png',1)"><img src="but/butProducts.png" alt="Products" width="163" height="18" border="0" id="Products" /></a></li>-->
+</ul>
+  
+<script type="text/javascript" charset="utf-8">
+$(function(){
+	$('#menuwork li a').click(function(event){
+		var elem = $(this).next();
+		if(elem.is('ul')){
+			event.preventDefault();
+			$('#menuwork ul:visible').not(elem).slideUp();
+			elem.slideToggle();
+		}
+	});
+});
+</script>
+
+
+
+<div>
+</div>
+</div>
+</body>
+</html>
